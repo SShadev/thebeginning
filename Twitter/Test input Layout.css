@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+}
+
+.info {
+    position: relative;
+    margin: 20px 0;
+}
+
+.info label {
+    position: absolute;
+    top 50px;
+    left: 5px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+    pointer-events: none;
+    transition: .2s;
+    transform: translateY(=50%);
+}
+
+.info input {
+    width: 120px; height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    background: transparent;
+    border: 1.2px solid #fff;
+    outline: none;
+    border-radius: 5px;
+}
+
+.info input:focus~label,
+.info input:valid~label {
+    top: 0;
+    font-size: 12px;
+    background-color: blueviolet;
+
+}

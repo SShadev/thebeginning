@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1b86ce;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: #000000;
+    background-color: #eff9fd;
+}
+
+.loginbox {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #00000083;
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    
+}
+
+h1 {
+    color: #1da1f2;
+    font-size: 28px;
+    font-weight: 1000px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-shadow: 0 0 10px #1528d67c;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 70px;
+    font-size: 12px;
+    box-shadow: 0 0 10px #0000000e;
+}
+
+input:active {
+    transform: scale(0.99);
+    
+}
+
+input::placeholder {
+    font-size: smaller;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: white;
+    color: #0d8ecf;
+    font-weight: 1000;
+    padding: 10px;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    box-shadow: 0 0 10px #9e9d9d70;
+}
+
+button:hover {
+    background-color: #cfd7db;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+p {
+    font-style: italic;
+    font-size: smaller;
+    font-family: cursive;
+    font-weight: bold;
+}
+
